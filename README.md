@@ -1,5 +1,7 @@
 # Apache Livy
 
+> TDP related documentation available in [tdp/](./tdp/)
+
 [![Build Status](https://travis-ci.org/apache/incubator-livy.svg?branch=master)](https://travis-ci.org/apache/incubator-livy)
 
 Apache Livy is an open source REST interface for interacting with
@@ -7,11 +9,11 @@ Apache Livy is an open source REST interface for interacting with
 programs in a Spark context that runs locally or in
 [Apache Hadoop YARN](http://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/YARN.html).
 
-* Interactive Scala, Python and R shells
-* Batch submissions in Scala, Java, Python
-* Multiple users can share the same server (impersonation support)
-* Can be used for submitting jobs from anywhere with REST
-* Does not require any code change to your programs
+- Interactive Scala, Python and R shells
+- Batch submissions in Scala, Java, Python
+- Multiple users can share the same server (impersonation support)
+- Can be used for submitting jobs from anywhere with REST
+- Does not require any code change to your programs
 
 [Pull requests](https://github.com/apache/incubator-livy/pulls) are welcomed! But before you begin,
 please check out the [Contributing](http://livy.incubator.apache.org/community#Contributing)
@@ -27,39 +29,41 @@ documentation can be found at [livy.incubator.apache.org](http://livy.incubator.
 To build Livy, you will need:
 
 Debian/Ubuntu:
-  * mvn (from ``maven`` package or maven3 tarball)
-  * openjdk-8-jdk (or Oracle JDK 8)
-  * Python 2.7+
-  * R 3.x
+
+- mvn (from `maven` package or maven3 tarball)
+- openjdk-8-jdk (or Oracle JDK 8)
+- Python 2.7+
+- R 3.x
 
 Redhat/CentOS:
-  * mvn (from ``maven`` package or maven3 tarball)
-  * java-1.8.0-openjdk (or Oracle JDK 8)
-  * Python 2.7+
-  * R 3.x
+
+- mvn (from `maven` package or maven3 tarball)
+- java-1.8.0-openjdk (or Oracle JDK 8)
+- Python 2.7+
+- R 3.x
 
 MacOS:
-  * Xcode command line tools
-  * Oracle's JDK 1.8
-  * Maven (Homebrew)
-  * Python 2.7+
-  * R 3.x
+
+- Xcode command line tools
+- Oracle's JDK 1.8
+- Maven (Homebrew)
+- Python 2.7+
+- R 3.x
 
 Required python packages for building Livy:
-  * cloudpickle
-  * requests
-  * requests-kerberos
-  * flake8
-  * flaky
-  * pytest
 
+- cloudpickle
+- requests
+- requests-kerberos
+- flake8
+- flaky
+- pytest
 
 To run Livy, you will also need a Spark installation. You can get Spark releases at
 https://spark.apache.org/downloads.html.
 
 Livy requires Spark 2.4+. You can switch to a different version of Spark by setting the
-``SPARK_HOME`` environment variable in the Livy server process, without needing to rebuild Livy.
-
+`SPARK_HOME` environment variable in the Livy server process, without needing to rebuild Livy.
 
 ## Building Livy
 
