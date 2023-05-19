@@ -1,6 +1,6 @@
 # TDP Livy Notes
 
-The version `0.8.0-incubating-TDP-0.1.0-SNAPSHOT` of Apache Livy is based on the `master` branch of the [Apache repository](https://github.com/apache/incubator-livy/tree/master).
+The version `0.8.0-incubating-2.0` of Apache Livy is based on the `master` branch of the [Apache repository](https://github.com/apache/incubator-livy/tree/master).
 
 The main purpose of this custom release is the support of Spark 3.2 that is used in TDP.
 
