@@ -8,7 +8,7 @@
 
 ## Code changes
 
-1. Livy version: `0.8.0-incubating-SNAPSHOT` → `0.8.0-incubating-TDP-0.1.0-SNAPSHOT`
+1. Livy version: `0.8.0-incubating-1.0` → `0.8.0-incubating-1.0`
 2. Scala 2.12 version: `2.12.10` → `2.12.15`
 3. Plugin `net.alchim31.maven.scala-maven-plugin` version: `4.2.0` → `4.5.4`
 4. Add versions `3.1` and `3.2` in `_defaultSparkScalaVersion` map in [LivySparkUtils.scala](../server/src/main/scala/org/apache/livy/utils/LivySparkUtils.scala).
