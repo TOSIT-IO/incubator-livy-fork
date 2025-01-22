@@ -27,7 +27,9 @@ For more info, see [Start the container](https://github.com/TOSIT-IO/TDP/tree/ma
 
 ```bash
 cd incubator-livy
-mvn clean package -DskipTests
+# in order to create a create a new release adding thriftserver to an already published release
+# mvn clean package -DskipTests -P thriftserver '-Dassembly.name=apache-livy-${project.version}_${scala.binary.version}-bin-thrift'
+mvn clean package -DskipTests -P thriftserver
 ```
 
 The command generates a `.zip` file of the release at `./assembly/target/apache-livy-0.8.0-incubating-TDP-0.1.0-SNAPSHOT-bin.zip`.
